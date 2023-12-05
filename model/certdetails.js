@@ -13,6 +13,6 @@ const certschema = new sc({
     
 });
 
-var certmodel =mongoose.model("cerdetails",certschema)
+var certmodel =mongoose.model("certificate",certschema)
 module.exports =certmodel;
 
